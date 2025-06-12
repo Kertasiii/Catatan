@@ -1,4 +1,9 @@
-# PEMIMPIN : bukan sekedar posisi dan rotasi, tapi arah - sebuah studi reflektif.
+---
+layout: post
+tittle: "# PEMIMPIN : bukan sekedar posisi dan rotasi, tapi arah - sebuah studi reflektif."
+date:2025-06-13
+---
+
 ## Ketika Pergantian Pemimpin Tak Lagi Menjawab Tantangan Perubahan
 
 Dalam banyak organisasi, pergantian pemimpin sering diasosiasikan dengan satu kata yang penuh harapan: perubahan.
