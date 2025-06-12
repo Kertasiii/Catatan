@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: "# PEMIMPIN : bukan sekedar posisi dan rotasi, tapi arah - sebuah studi reflektif."
-date:2025-06-13
+date: 2025-06-13
 ---
 
 ## Ketika Pergantian Pemimpin Tak Lagi Menjawab Tantangan Perubahan
