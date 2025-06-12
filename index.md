@@ -1,1 +1,1 @@
-# Selamat datang di blog anonim\n\nIni adalah tempat saya menulis secara bebas dan anonim.
+# Catatan Anonim\n\nSelamat datang di blog saya yang anonim dan bebas.
