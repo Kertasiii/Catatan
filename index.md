@@ -1,4 +1,4 @@
 ---
 layout: home
 ---
-Selamat datang di blog saya yang bebas dan reflektifm insya Allah.
+Selamat datang di blog saya yang bebas dan reflektif, insya Allah.
