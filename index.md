@@ -3,7 +3,7 @@ layout: default
 title: Catatan Kertas
 ---
 
-## Selamat datang di Catatan Kami, silahkan segera meninggalkan tempat ini
+## Selamat datang di Catatan Kami, Segera tinggalkan tempat ini!
 
 Berikut adalah tulisan terbaru:
 
