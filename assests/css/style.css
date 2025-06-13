@@ -1,4 +1,4 @@
-/* Font klasik Times & alternatif */
+/* Gaya dasar klasik */
 body {
   font-family: "Times New Roman", Times, Georgia, serif;
   font-size: 18px;
@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 
-/* Container utama */
+/* Pembungkus utama */
 main {
   max-width: 700px;
   margin: 4rem auto;
@@ -17,12 +17,20 @@ main {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Judul & heading */
+/* Header dan Footer */
+header, footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Heading */
 h1, h2, h3, h4 {
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: normal;
   color: #111;
   margin-bottom: 1rem;
@@ -34,12 +42,12 @@ h1 {
   padding-bottom: 0.5rem;
 }
 
-/* Teks paragraf */
+/* Paragraf */
 p {
   margin-bottom: 1.5rem;
 }
 
-/* Tautan */
+/* Link */
 a {
   color: #003366;
   text-decoration: underline;
@@ -57,7 +65,16 @@ nav.post-nav {
   font-size: 0.95rem;
 }
 
-/* Daftar posting di index */
+nav.post-nav a {
+  color: #555;
+}
+
+nav.post-nav a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+/* List */
 ul {
   padding-left: 1.2rem;
 }
@@ -73,6 +90,20 @@ blockquote {
   border-left: 3px solid #888;
   color: #555;
   font-style: italic;
+}
+
+/* Kode */
+code {
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  font-family: 'Courier New', monospace;
+  border-radius: 4px;
+}
+
+/* Gambar */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Responsif */
