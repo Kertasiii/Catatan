@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 tittle: "PEMIMPIN : bukan sekedar posisi dan rotasi, tapi arah - sebuah studi reflektif."
 date: 2025-06-13
 ---
