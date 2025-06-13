@@ -1,2 +1,4 @@
-title: Kertas
+title: Catatan Kertas
+description: Blog pribadi
 theme: minima
+markdown: kramdown
