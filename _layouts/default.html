@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} | Catatan Kertas</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        max-width: 700px;
+        margin: auto;
+        padding: 2rem;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      header, footer {
+        text-align: center;
+        margin: 2rem 0;
+        color: #555;
+      }
+      a {
+        color: #007acc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      ul {
+        padding-left: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ "/" | relative_url }}">Catatan Anonim</a></h1>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} — Catatan Bebas</p>
+    </footer>
+  </body>
+</html>
