@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Catatan Anonim
+title: Catatan Kertas
 ---
 
-# Selamat datang di Catatan Anonim
+## Selamat datang di Catatan Kami, silahkan segera meninggalkan tempat ini
 
 Berikut adalah tulisan terbaru:
 
