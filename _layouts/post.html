@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} | Catatan Kertas</title>
+  <link rel="stylesheet" href="/Catatan/assets/style.css" />
+</head>
+<body>
+  <main>
+    <h1>{{ page.title }}</h1>
+    <p><small>{{ page.date | date: "%d %B %Y" }}</small></p>
+
+    {{ content }}
+
+    {% if page.previous or page.next %}
+    <nav class="post-nav">
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
+      {% else %}
+        <span></span>
+      {% endif %}
+
+      {% if page.next %}
+        <a href="{{ page.next.url }}">{{ page.next.title }} →</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+  </main>
+</body>
+</html>
